@@ -3,7 +3,7 @@ Launch option commands for higher FPS and a tutorial for how to actually play Ru
 
 ### 1. Actual launch options
 
-```gamescope -w 1280 -h 960 -r 320 -S stretch -- %command% -screen-width 1280 -screen-height 960 -rate 320 -window-mode exclusive -nolog -high -force-feature-level-11-0 +gc.buffer 2048```
+```gamescope -f -w 1280 -h 960 -r 320 -S stretch -- %command% -screen-width 1280 -screen-height 960 -rate 320 -window-mode exclusive -nolog -high -force-feature-level-11-0 +gc.buffer 2048```
 
   -This line will set Rust to 1280 by 960 resolution without black bars and set the refresh rate to 320 (-w 1280 -h 960 and -rate 320)
 
