@@ -22,7 +22,7 @@ STEP 2: LAUNCH OPTIONS (FPS & RESOLUTION)
 Copy the line below into:
 Steam -> Right-click Rust -> Properties -> General -> Launch Options
 
--screen-width 1280 -screen-height 960 -rate 320 -window-mode exclusive -nolog -high -force-feature-level-11-0 -maxMem=16384 -malloc=system +gc.buffer 2048
+gamescope -f -w 1280 -h 960 -r 320 -S stretch -- %command% -screen-width 1280 -screen-height 960 -rate 320 -window-mode exclusive -nolog -high -force-feature-level-11-0 +gc.buffer 2048
 
 [NOTE ON MEMORY]
 - The option "-maxMem=16384" assumes you have 16GB+ RAM. 
